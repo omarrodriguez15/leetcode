@@ -4,7 +4,7 @@ public class DecodeWaysTests
 {
    public static void Run()
    {
-      Console.WriteLine("Starting testing");
+      Console.WriteLine("Starting DecodeWays testing");
       AssertAndLog("226", 3);
       AssertAndLog("12", 2);
       AssertAndLog("1", 1);
@@ -25,7 +25,7 @@ public class DecodeWaysTests
       AssertAndLog("47575625458228", 4);
       AssertAndLog("756254229169", 8);
       AssertAndLog("4757562545844617494555774581341211511296816786586787755257741178599337186486723247528324612117156948", 589824);
-      Console.WriteLine("Done testing");
+      Console.WriteLine("Done DecodeWays testing");
    }
 
    public static void AssertAndLog(string s, int expectation)

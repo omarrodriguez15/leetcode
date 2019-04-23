@@ -7,6 +7,7 @@ namespace LeetCode
       static void Main(string[] args)
       {
          DecodeWaysTests.Run();
+         SetMatrixZeroTests.Run();
       }
    }
 }
